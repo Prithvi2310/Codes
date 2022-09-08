@@ -16,7 +16,7 @@ class binary{
             }
             cout<<"Binary equivalent of the input decimal number: "<<binaryNum<<endl;
         }
-        ~binary{
+        ~binary(){
             cout<<"\nMemory Space freed";
         }
 };
