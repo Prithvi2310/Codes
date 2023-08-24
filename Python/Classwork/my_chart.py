@@ -1,0 +1,12 @@
+# coding: utf-8
+plt.axis([0,6,0,30])
+plt.text(1,1.5,'First')
+plt.text(2,4.5,'Second')
+plt.text(3,9.5,'Third')
+plt.text(4,16.5,'Fourth')
+plt.text(5,25.5,'Fifth')
+plt.grid(True)
+plt.plot([1,2,3,4,5],[1,4,9,16,25],'ro')
+plt.text(0.2,20,r'y$=x^2$',fontsize=20,bbox={'facecolor':'yellow'})
+plt.legend(['First Series'],loc=2)
+get_ipython().run_line_magic('save', 'my_chart 10-30')
